@@ -1,0 +1,450 @@
+[
+  {
+    "begin": 7,
+    "track": 1,
+    "name": "metropolis_1min.mp4",
+    "color": "rgb(0, 0, 255)",
+    "lengte": 120
+  },
+  {
+    "begin": 4.5,
+    "track": 4,
+    "name": "uitkijk_koning.mp4",
+    "color": "rgb(0, 0, 255)",
+    "lengte": 130
+  },
+  {
+    "begin": 703,
+    "track": 5,
+    "name": "boxer.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 122
+  },
+  {
+    "begin": 75,
+    "track": 1,
+    "name": "foto_licht_1.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 66
+  },
+  {
+    "begin": 75,
+    "track": 2,
+    "name": "foto_licht_2.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 70
+  },
+  {
+    "begin": 75.5,
+    "track": 3,
+    "name": "foto_licht_3.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 60
+  },
+  {
+    "begin": 76,
+    "track": 4,
+    "name": "foto_licht_4.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 62
+  },
+  {
+    "begin": 114.5,
+    "track": 3,
+    "name": "boot_stad.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 112
+  },
+  {
+    "begin": 16,
+    "track": 2,
+    "name": "foto_vogel.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 64
+  },
+  {
+    "begin": 234,
+    "track": 9,
+    "name": "trap_trede.mp4",
+    "color": "rgb(0, 0, 255)",
+    "lengte": 138
+  },
+  {
+    "begin": 703.5,
+    "track": 4,
+    "name": "these_updates.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 118
+  },
+  {
+    "begin": 846.5,
+    "track": 2,
+    "name": "golfers_2.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 166
+  },
+  {
+    "begin": 816.5,
+    "track": 1,
+    "name": "foto_ramen_zwart.mp4",
+    "color": "rgb(0, 255, 0)",
+    "lengte": 106
+  },
+  {
+    "begin": 52.5,
+    "track": 6,
+    "name": "foto_trap.mp4",
+    "color": "rgb(0, 255, 0)",
+    "lengte": 96
+  },
+  {
+    "begin": 867.5,
+    "track": 4,
+    "name": "hoogspringers.mp4.mp4",
+    "color": "rgb(0, 255, 0)",
+    "lengte": 14
+  },
+  {
+    "begin": 339,
+    "track": 5,
+    "name": "timelapse.mp4.mp4",
+    "color": "rgb(0, 255, 0)",
+    "lengte": 74
+  },
+  {
+    "begin": 698,
+    "track": 2,
+    "name": "kamer_met_uitzicht.mp4",
+    "color": "rgb(255, 0, 255)",
+    "lengte": 8
+  },
+  {
+    "begin": 847,
+    "track": 3,
+    "name": "klok_huis2.mp4",
+    "color": "rgb(0, 255, 255)",
+    "lengte": 50
+  },
+  {
+    "begin": 846.5,
+    "track": 4,
+    "name": "plantje.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 16
+  },
+  {
+    "begin": 680,
+    "track": 3,
+    "name": "huid_raam.avi.mp4",
+    "color": "rgb(0, 255, 255)",
+    "lengte": 44
+  },
+  {
+    "begin": 706,
+    "track": 3,
+    "name": "navel_groei.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 16
+  },
+  {
+    "begin": 308.5,
+    "track": 9,
+    "name": "open.MOV",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 22
+  },
+  {
+    "begin": 178,
+    "track": 10,
+    "name": "raam_rond.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 56
+  },
+  {
+    "begin": 605,
+    "track": 6,
+    "name": "witte_deur.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 14
+  },
+  {
+    "begin": 661,
+    "track": 6,
+    "name": "agenten.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 54
+  },
+  {
+    "begin": 661,
+    "track": 1,
+    "name": "passant.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 20
+  },
+  {
+    "begin": 661,
+    "track": 5,
+    "name": "surfer.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 24
+  },
+  {
+    "begin": 445,
+    "track": 3,
+    "name": "zee.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 60
+  },
+  {
+    "begin": 605,
+    "track": 1,
+    "name": "mus_afvuur.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 20
+  },
+  {
+    "begin": 533.5,
+    "track": 6,
+    "name": "Muur_eind_eind.mp4.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 138
+  },
+  {
+    "begin": 338,
+    "track": 6,
+    "name": "hal.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 374
+  },
+  {
+    "begin": 547,
+    "track": 5,
+    "name": "wandje.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 108
+  },
+  {
+    "begin": 145,
+    "track": 1,
+    "name": "Tegelvloer_7.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 54
+  },
+  {
+    "begin": 68.5,
+    "track": 9,
+    "name": "Tegelvloer_7.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 54
+  },
+  {
+    "begin": 118,
+    "track": 2,
+    "name": "gebouwbakje.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 316
+  },
+  {
+    "begin": 448,
+    "track": 10,
+    "name": "gebouwbakje.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 316
+  },
+  {
+    "begin": 128.5,
+    "track": 10,
+    "name": "lucht.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 74
+  },
+  {
+    "begin": 614,
+    "track": 4,
+    "name": "poppetjes.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 88
+  },
+  {
+    "begin": 71,
+    "track": 10,
+    "name": "poppetjes.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 88
+  },
+  {
+    "begin": 232,
+    "track": 4,
+    "name": "raampjes0001.jpg.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 56
+  },
+  {
+    "begin": 478,
+    "track": 3,
+    "name": "stoel_reparatie.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 326
+  },
+  {
+    "begin": 707,
+    "track": 2,
+    "name": "windows_1_1.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 270
+  },
+  {
+    "begin": 338,
+    "track": 1,
+    "name": "aquarium.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 534
+  },
+  {
+    "begin": 875.5,
+    "track": 1,
+    "name": "Weg.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 132
+  },
+  {
+    "begin": 239.5,
+    "track": 10,
+    "name": "zee_eind.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 400
+  },
+  {
+    "begin": 350,
+    "track": 9,
+    "name": "Zee.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 1050
+  },
+  {
+    "begin": 276,
+    "track": 1,
+    "name": "groene_caddilac.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 34
+  },
+  {
+    "begin": 277,
+    "track": 3,
+    "name": "groene_caddilac_2.MOV",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 34
+  },
+  {
+    "begin": 308,
+    "track": 4,
+    "name": "groene_caddilac_2.MOV",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 34
+  },
+  {
+    "begin": 134,
+    "track": 9,
+    "name": "maan_weerspiegeling.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 74
+  },
+  {
+    "begin": 599,
+    "track": 4,
+    "name": "zwaaien_poppetjes.MOV",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 24
+  },
+  {
+    "begin": 622,
+    "track": 1,
+    "name": "handen_krant_2.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 44
+  },
+  {
+    "begin": 338,
+    "track": 2,
+    "name": "filmpje_zee_hout.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 96
+  },
+  {
+    "begin": 442.5,
+    "track": 4,
+    "name": "filmpje_zee_hout.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 96
+  },
+  {
+    "begin": 230,
+    "track": 5,
+    "name": "foto_achterhoofd.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 58
+  },
+  {
+    "begin": 162,
+    "track": 6,
+    "name": "foto_bankje.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 60
+  },
+  {
+    "begin": 442,
+    "track": 5,
+    "name": "foto_gebouw.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 60
+  },
+  {
+    "begin": 296,
+    "track": 1,
+    "name": "foto_halve_heg.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 60
+  },
+  {
+    "begin": 295.5,
+    "track": 2,
+    "name": "foto_rondje.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 60
+  },
+  {
+    "begin": 564,
+    "track": 4,
+    "name": "foto_twee_fietsers.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 60
+  },
+  {
+    "begin": 196,
+    "track": 6,
+    "name": "foto_vetrol.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 60
+  },
+  {
+    "begin": 295.5,
+    "track": 3,
+    "name": "foto_vierkant.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 60
+  },
+  {
+    "begin": 231.5,
+    "track": 1,
+    "name": "foto_vierkant_boom.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 60
+  },
+  {
+    "begin": 230,
+    "track": 6,
+    "name": "foto_vingers_gebouw.mp4",
+    "color": "rgb(100, 100, 255)",
+    "lengte": 60
+  }
+]

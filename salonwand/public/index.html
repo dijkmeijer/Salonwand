@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Marijn Salonwand programmering</title>
+	<style>
+	.draggable { position: absolute; display: block; height: 30px; padding: 0px; float: left; margin: 0 10px 10px 0; font-size: .9em; background-color: blue; opacity: 0.9;}
+	.ui-widget-header p, .ui-widget-content p { margin: 0; }
+	.block {position: absolute; border: solid; border-width:1px; width: 119px; height:39px;}
+	#snaptarget { height: 140px; opacity: 0.5;}
+	</style>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script>
+
+	$( function() {
+        $("#button").click( function()
+           {
+						 var sequence=[];
+						 var tracklist=["Marijn_I<br>","Marijn_II<br>","Marijn_III<br>","Marijn_IV<br>","Marijn_V<br>","Marijn_VI<br>","Marijn_VII<br>"];
+
+
+             $(".ui-widget-content").each(function(){
+							 frame={};
+							 frame.begin=$(this).position().left/2;
+							 frame.track=($(this).position().top+15)/40;
+							 frame.name=$(this).html();
+							 frame.color=$(this).css("background-color");
+							 frame.lengte=parseInt($(this).css("width"));
+							 sequence.push(frame);
+							 tracklist[frame.track-1] +=frame.name+"<br>";
+						});
+						//n = JSON.stringify(sequence,null, " ");
+						var r = "<table><tr>";
+						for (var track in tracklist){
+
+							r+="<td VALIGN='top' width=200px >"+tracklist[track]+"</td>";
+						}
+						r+= "</tr></table>";
+						$(".result").html(r);
+
+						$.ajax({
+												type: 'POST',
+												data: JSON.stringify(sequence),
+										        contentType: 'application/json',
+						                        url: "/een",
+						                        success: function(data) {
+						                            console.log('success');
+						                            console.log(JSON.stringify(sequence));
+						                        }
+						                    });
+
+
+
+
+           });
+});
+	</script>
+</head>
+<body>
+
+	<div id="button" class="block" style="top:350px; left: 0px;">Save</div>
+	<div class="result" style="position:absolute; top:450px; left: 0px;"></div>
+
+<script>
+$( function(){
+	for(i=0; i < 20; i++){
+		for(j=0; j < 7; j++){
+			 if(j%2){ bg="lightgrey";} else {bg="white";}
+			$("body").append("<div class='block' style='top:"+(40*j+19)+"px; left:"+(i*120)+"px; background-color:"+bg+";'></div>");
+
+	 }
+	 $("body").append("<div class='block' style='top:299px; left:"+(i*120)+"px;' >"+i+"min</div>")
+ }
+
+});
+
+$( function() {
+		 $.getJSON("Content.json", function(data){
+					$.each(data, function(i, item){
+							$("body").append("<div id='draggable"+i+"' class='draggable ui-widget-content' "+
+							"style='width:"+item.lengte+"px; background-color:"+item.color+"; left: "+item.begin*2+"px;"+
+							"top:"+(item.track*40-15)+"px;'>"+
+							item.name+"</div>");
+							id = "#draggable"+i;
+							$( id ).draggable({ grid: [ 1, 40 ] });
+					});
+					});
+		console.log("ok");
+});
+</script>
+</body>
+</html>
