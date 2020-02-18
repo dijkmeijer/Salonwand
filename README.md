@@ -4,5 +4,6 @@ De videos en timing staan op diverse RPi's in de een netwerk krijgen een startco
 via een rpyc server
 
 slaves : RPi met omxplayer en rpyc server
+
 master : RPi met omxplater en thread_timer.py
           thread_timer.py om de videos op de RPi's te starten
